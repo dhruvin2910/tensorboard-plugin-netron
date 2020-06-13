@@ -1,2 +1,4 @@
 .idea
 tensorboard_plugin_netron.egg-info
+build
+dist
