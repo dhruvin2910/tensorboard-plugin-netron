@@ -18,7 +18,8 @@ class Netron(TBPlugin):
     def frontend_metadata(self):
         return FrontendMetadata(
             tab_name='Netron',
-            es_module_path='/render.js'
+            es_module_path='/render.js',
+            disable_reload=True
         )
 
     def get_plugin_apps(self):
