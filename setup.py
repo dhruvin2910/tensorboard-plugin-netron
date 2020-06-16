@@ -5,7 +5,7 @@ with open('README.md', 'r') as readme:
 
 setup(
     name='tensorboard-plugin-netron',
-    version='0.1.0',
+    version='0.1.1',
     packages=find_packages(),
     url='https://github.com/dhruvin2910/tensorboard-plugin-netron',
     license='MIT',
